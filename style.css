@@ -1,0 +1,278 @@
+
+body{
+     padding    : 0;
+     margin     : 0;
+     font-family: Helvetica;
+     background-color: #E1EAF3;
+}
+/*=================== TOP-TABS ==========================*/
+/* Header settings */
+#header{
+      position: fixed;
+      top     : 0;
+      left    : 0;
+      z-index : 500;
+      width   :100%;
+      height  :80px;
+      background-image  : url('images/plank.jpg');
+      background-repeat: repeat-x;
+}
+
+/* Header image settings */
+#header img{
+      display: block;
+      margin : auto;
+      height : 80%;
+      width  : 8%; 
+      padding-top: 15px; 
+}
+
+
+/* customizing the tabs on top */
+#tabs-top{
+      position: fixed;
+      top     : 80px;
+      left    : 0;
+      z-index : 500;
+      width   : 100%;
+      height  : 40px;
+      background-color: deepskyblue;
+}
+
+/* customize the links on the tabs and its text*/
+#tabs-top a{
+      float   : left;
+      display : block;
+      width   : 33%;
+      height  :35px;
+      font-weight : 700;
+      color       : white;
+      text-align  : center;
+      text-decoration : none;
+      padding-top     : 12px;  
+}
+
+#tabs-top a:hover{
+    color: blue;
+}
+#main-home{
+       margin-top: 120px;
+}
+
+/*================ bottm tabs ===========================*/
+
+#tabs-bottom{
+      position: fixed;
+      bottom  : 0;
+      left    : 0;
+      z-index : 500;
+      width   : 100%;
+      height  : 40px;
+      background-color: deepskyblue;
+}
+
+#tabs-bottom a{
+    float   : left;
+      display : block;
+      width   : 50%;
+      height  :35px;
+      font-weight : 700;
+      color       : white;
+      text-align  : center;
+      text-decoration : none;
+      padding-top     : 10px;
+    
+}
+#tabs-bottom a:hover{
+    color: blue;
+}
+
+input{
+      width: 100%;
+      height: 25px;
+      margin : 12px 0;
+      border : 1px solid #929292;
+}
+
+textarea{
+      width: 100%;
+      height :65px;
+      margin : 12px 0;
+      border : 1px solid #929292;
+}
+
+.button{
+      display : block;
+      widows: 100%;
+      background-color: forestgreen;
+      text-decoration : none;
+      text-align  : center;
+      color       : white;
+      font-size   : 16px;
+      font-weight : 600;
+      margin : 12px 0;
+      padding : 8px 0;
+}
+
+/* ============== Main =======================*/
+#main{
+     margin-top: 119px;
+     background: url('images/mall.png');
+     background-repeat: repeat-y;
+}
+
+#content{
+     padding-top: 1px;
+     padding-bottom: 50px;
+}
+
+/*============== info-box =======================*/
+a.info-box{
+     text-decoration : none;
+     background    : rgba(192,192,192,0.8);
+     width           : 95%;
+     height          : 90px;
+     display         : block;
+     margin          : auto;
+     margin-top      : 12px;
+     padding-top     : 1px; 
+}
+.info-box img{
+      height : 70px;
+      margin : 10px;
+      float  : left;
+}
+
+.info-box h3{
+      padding : 0;
+      margin-bottom :0;
+      width : 90%;
+      color : #572800;
+}
+
+.info-box p{
+      margin  : 0;
+      padding : 0;
+      width   : 90%;
+      color   : #131313;
+}
+
+.info-box img.right{
+      float      : right;
+      margin-top : 25px;
+      height     :40px; 
+}
+/*============== Info full box =======================*/
+#info-box-full{
+      background    : rgba(192,192,192,0.8);
+      width         : 50%;
+      height :       : 20px;
+      display       : block;
+      margin        : auto;
+      margin-top    : 12px;
+      padding       : 10px;
+}
+
+#info-box-full img{
+      width : 100%;
+}
+
+#info-box-full h3{
+      text-align : center;
+}
+.store img{
+    height : 70px;
+      margin : 10px;
+      float  : left;
+}
+
+#shop {
+    background    : rgba(192,192,192,0.8);
+      width         : 70%;
+      height :       : 20px;
+      display       : block;
+      margin        : auto;
+      margin-top    : 12px;
+      padding       : 10px;
+}
+
+#shop img{
+    width : 100%;
+    height: auto;
+}
+#shop a {
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    text-shadow: 2px 2px powderblue ;
+}
+
+#shop h3{
+    font-size: 40px;
+}
+
+#storep{
+      background    : rgba(192,192,192,0.8);
+      width         : 75%;
+      height :       : 20px;
+      display       : block;
+      margin        : auto;
+      margin-top    : 12px;
+      padding       : 10px;
+}
+
+#storep img{
+      width : 100%;
+}
+
+#storep h3{
+      text-align : center;
+}
+
+/*============== message for link on specials =======================*/
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: floralwhite;
+  color: cadetblue;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+/*============== about page =======================*/
+
+#mall img {
+  border: 5px solid #ddd;
+  border-radius: 3px;
+  padding: 10px;
+  width: 550px;
+}
+#mall{
+  padding-top: 5px;
+  display: block;
+  margin-top: 119px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#mall h3{
+    font-family: cursive;
+    text-align: center;
+    font-size: 37px;
+}
+
+
+
